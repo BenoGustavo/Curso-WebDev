@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNES - Contato</title>
+</head>
+
+<body style="display: flex;flex-direction: column;align-items: center;" background="/img/fundo2.png">
+    <header style="width: 900px;margin-top: 1rem;display: flex;justify-content: center;align-items: center;">
+        <div>
+            <img src="/img/logo.png" alt="UNES UNIVERSIDADES LOGOTIPO">
+        </div>
+        <nav style="margin-left: auto;">
+            <ul style="display: flex;gap: 1rem;list-style: none;">
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/quem-somos.html">Quem somos</a></li>
+                <li><a href="/contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main style="width: 900px;">
+        <div>
+            <h1>Entre em contato</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet mollis nisl.</p>
+        </div>
+        <hr>
+        <fieldset style="margin: 0; padding: 0.5rem 0; border: none;">
+            <legend>Preencha alguns dados:</legend>
+            <form action="/contato.html">
+                <div>
+                    <label style="display: block;" for="email-input">Seu e-mail</label>
+                    <input type="email" id="email-input" placeholder="Insira seu e-mail">
+                </div>
+                <div>
+                    <label style="display: block;" for="assunto-input">Assunto</label>
+                    <input type="text" placeholder="Insira o assunto">
+                </div>
+                <div>
+                    <label style="display: block;" for="descricao-input">Descrição</label>
+                    <textarea name="descricao" id="descricao-input" cols="30" rows="10"
+                        placeholder="Insira sua descricao"></textarea>
+                </div>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </fieldset>
+    </main>
+
+    <footer>
+        <p><b>Todos os direitos reservados</b></p>
+    </footer>
+</body>
+
+</html>
