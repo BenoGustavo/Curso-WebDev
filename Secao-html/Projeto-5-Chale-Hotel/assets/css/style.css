@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 1218px;
+    margin: 0 auto;
+
+    font-family: Helvetica, "Trebuchet MS", sans-serif;
+    background: url(/assets/img/bg.png);
+}
+
+.header-container {
+    width: 100%;
+    height: 250px;
+    max-width: 1218px;
+    position: absolute;
+}
+
+.logo-container {
+    margin: 15px;
+    background-image: url(/assets/img/topo-imagem-principal.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 798px;
+    height: 250px;
+
+    z-index: -1;
+}
+
+.logo-container img {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+.logo-container img:hover {
+    cursor: pointer;
+}
+
+.nav-container {
+    margin: 15px;
+    background: url(/assets/img/topo-imagem-lateral.png) no-repeat;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 450px;
+    height: 250px;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+}
+
+.nav-container ul {
+    list-style: none;
+    margin-bottom: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.nav-container ul li {
+    padding: 5px;
+    font-size: 12.8px;
+
+    color: #6e672c;
+
+    width: fit-content;
+
+    transition: ease-in 0.1s;
+    border-radius: 8px;
+}
+
+.nav-container ul li:hover {
+    color: #dfd393;
+    background-color: #a29750;
+}
+
+.nav-container ul li a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.nav-container .image-container {
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+}
+
+.menu-container {
+    position: absolute;
+    top: 30px;
+    right: 40px;
+    z-index: 2;
+}
+
+.header-about-container {
+    display: flex;
+
+    border-bottom: 1px solid #b5ab56;
+    border-top: 1px solid #b5ab56;
+
+    padding: 5px;
+
+    gap: 2rem;
+}
+
+.menu-container .header-about-container p {
+    font-size: 11px;
+    color: #8b8448;
+    line-height: 2.1em;
+}
+
+.menu-container .header-about-container input {
+    background-color: #a29750;
+    border: none;
+    padding: 5px 10px;
+    color: #fff5b0;
+    font-size: 0.7em;
+
+    border-radius: 2px;
+    transition: ease-in 0.2s;
+}
+
+.menu-container .header-about-container input:hover {
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.header-spacing {
+    height: 233px;
+}
+
+.main-container {
+    margin: 0 15px;
+    display: flex;
+    margin-top: 2rem;
+    background-image: url(/assets/img/bg-area-principal.png);
+    background-color: #efe9cb;
+    background-repeat: repeat-x;
+}
+
+.about-hotel {
+    padding: 1.5rem;
+    max-width: 590px;
+}
+
+.text-container h2 {
+    font-size: 1.1em;
+    padding: 5px;
+    color: #7d7640;
+}
+
+.text-container p {
+    padding: 5px;
+}
+
+.more-about-hotel {
+    display: flex;
+    flex-direction: column;
+    background-color: #dbd8b6;
+    background-image: url(/assets/img/bg-area-lateral.png);
+    background-repeat: repeat-x;
+    z-index: 2;
+    padding: 2.5rem 1.5rem;
+
+    gap: 1rem;
+}
+
+.more-about-hotel img.advertisment {
+    width: 150px;
+    border-radius: 8px;
+
+    transition: ease-in 0.2s;
+}
+
+.more-about-hotel img.advertisment:hover {
+    width: 200px;
+}
+
+.post-container {
+    display: flex;
+    padding-bottom: 5px;
+    border-bottom: #8b8448 solid 1px;
+}
+
+.title-container {
+    display: flex;
+}
+
+.post-text {
+    margin-left: 1rem;
+}
+
+.title-container h3 {
+    padding: 5px 0;
+    font-size: 1em;
+    color: #615b2d;
+}
+
+.title-container p {
+    font-size: 0.8em;
+}
+
+.post-text .title-container img {
+    justify-self: flex-end;
+}
+
+.footer-container {
+    margin: 0 15px;
+    background-image: url(/assets/img/bg-rodape.png);
+    background-repeat: repeat-x;
+    padding: 20px;
+    color: #7d7640;
+    background-color: white;
+}
