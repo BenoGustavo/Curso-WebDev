@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.section-container {
+    height: 100vh;
+    opacity: 70%;
+    position: relative;
+}
+
+.flex-container-center-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image {
+    background: url(/assets/img/imagem1.jpg) no-repeat center center / cover fixed;
+}
+
+.title-container {
+    background-color: rgb(43, 43, 43);
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 3px rgba(0, 0, 0, 0.712);
+}
+
+.title-container h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: white;
+    padding: 2rem;
+}
+
+.image2 {
+    background: url(/assets/img/imagem2.jpg) no-repeat center center / cover fixed;
+}
+
+.image3 {
+    background: url(/assets/img/imagem3.jpg) no-repeat center center / cover fixed;
+}
+
+.image4 {
+    background: url(/assets/img/imagem4.jpg) no-repeat center center / cover fixed;
+}
+
+.image5 {
+    background: url(/assets/img/imagem5.jpg) no-repeat center center / cover fixed;
+}
+
+.image6 {
+    background: url(/assets/img/imagem6.jpg) no-repeat center center / cover fixed;
+}
+
+.text-container {
+    height: 30rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 1px 1px 10px 3px rgba(0, 0, 0, 0.712);
+}
+
+.text-container h1 {
+    font-size: 2.5rem;
+    color: rgb(66, 66, 66);
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+
+.text-clip-image {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: cover;
+    color: transparent;
+}
+
+.image {
+    background-image: url(/assets/img/imagem1.jpg);
+}
+
+.image2 {
+    background-image: url(/assets/img/imagem4.jpg);
+}
